@@ -9,7 +9,7 @@ To help users get password following what criteria they have in mind. As in the 
 * JS
 
 ## Screen Shot
-![Password Generator website](assets/images/website-screenshoot.png)
+![Password Generator website](assets/images/website-screenshot.png)
 ## Websites
 https://github.com/pab12/Password-Generator
 https://pab12.github.io/Password-Generator/
