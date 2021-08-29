@@ -38,9 +38,18 @@ var lengthOfPassword = parseInt(prompt("How many character slots do you want it 
     alert("This has to be a number");
     return null;
   }
+  for( var i =0; i < lengthOfPassword; i++){
+    var randomCharacter = getRandomCharacter(characterTypes);
+    password+= randomCharacter;
+  }
  
-}
 
+  return password;
+}
+function getRandomCharacter(array){
+  var index = Math.floor(Math.random()*array.length);
+  return array[index];
+}
 
 
 // Get references to the #generate element
